@@ -2,7 +2,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         MessageBox.Show("hi how are you?")
-        Dim answer = InputBox("Well what is it?")
+        Dim answer = InputBox("Well what is it already?")
         Label1.text = answer
     End Sub
 End Class
